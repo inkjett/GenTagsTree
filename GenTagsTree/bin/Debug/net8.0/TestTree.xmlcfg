@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--Файл конфигурации. Время создания: 3:31:06 20.10.2024, пользователь - administrator, компьютер - DESKTOP-8B9C8M0-->
+<Configuration Id="e9dc5e2e-e830-45f1-9dbd-de7a186849d3" Format="1">
+  <Signals>
+    <Properties>
+      <Property Id="999000" Type="String" Value="" />
+    </Properties>
+    <Items>
+      <Item Name="FloatTest" Type="Float" Id="24">
+        <Properties />
+        <Items />
+      </Item>
+      <Item Name="root" Type="Folder" Id="25">
+        <Properties />
+        <Items>
+          <Item Name="DoubleTest" Type="Double" Id="26">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="root2" Type="Folder" Id="27">
+            <Properties />
+            <Items>
+              <Item Name="BoolTest" Type="Bool" Id="28">
+                <Properties />
+                <Items />
+              </Item>
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+  </Signals>
+  <Modules>
+    <Properties />
+    <Items>
+      <Item Name="9bbe3db6-7dda-4c10-b7b4-ca36bef4418d" Type="Folder">
+        <Properties>
+          <Property Id="999000" Type="String" Value="OPCUAModuleConfigNode" />
+        </Properties>
+        <Items>
+          <Item Name="SecurityMode" Type="UInt4" Value="0">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="OpcTcpPort" Type="UInt2" Value="62544">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="HttpMode" Type="UInt4" Value="0">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="HttpPort" Type="UInt2" Value="8080">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="AllowAnonymousAuth" Type="Bool" Value="True">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="AllowWindowsAuth" Type="Bool" Value="False">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="AllowCertificateAuth" Type="Bool" Value="False">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="DiscoveryUrl" Type="String" Value="opc.tcp://localhost:4840">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ReadOnly" Type="Bool" Value="False">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="SwitchToSuspendedOnReserve" Type="Bool" Value="False">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ModuleName" Type="String" Value="OPC UA">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ModuleId" Type="String" Value="OPC UA">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ModuleLibrary" Type="String" Value="OPCUA_Module.dll">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="Priority" Type="UInt4" Value="100">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="Active" Type="Bool" Value="True">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="EventLogLevel" Type="UInt4" Value="2">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ModuleLogActive" Type="Bool" Value="False">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ModuleLogSize" Type="UInt4" Value="10">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="ModuleExtraLogFilesCount" Type="UInt1" Value="1">
+            <Properties />
+            <Items />
+          </Item>
+          <Item Name="PublicFolderList" Type="Folder">
+            <Properties>
+              <Property Id="999000" Type="String" Value="PublicFolderList" />
+            </Properties>
+            <Items />
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+  </Modules>
+</Configuration>
